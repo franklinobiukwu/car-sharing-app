@@ -1,0 +1,24 @@
+@use '../util/' as u;
+
+html {
+  box-sizing: border-box;
+  font-family: u.$font;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+#body {
+  width: 90%;
+  margin: auto;
+}

@@ -1,0 +1,45 @@
+// HEADER / NAVIGATION
+.headerContain {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 0 2px #000;
+  //   elements
+  & .logoNav {
+    // width: 40px;
+    height: 40px;
+    // border-radius: 50%;
+    overflow: hidden;
+    & img {
+      height: 100%;
+    }
+  }
+
+  & nav {
+    list-style-type: none;
+    display: flex;
+    // margin: auto;
+
+    & li:not(:nth-child(1)) {
+      margin-left: 10px;
+    }
+    & li {
+      margin: auto;
+    }
+    & li:last-child {
+      background-color: #ffa07a;
+      padding: 10px 10px;
+      border-radius: 5px;
+    }
+  }
+}
+
+.headerContain nav {
+  & a {
+    color: #fff;
+
+    &:hover {
+      border-bottom: 1px solid rgb(255, 213, 0);
+    }
+  }
+}

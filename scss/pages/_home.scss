@@ -1,0 +1,62 @@
+.indexBanner {
+  height: 100vh;
+  // background-image: url(../../images/homeBanner.png);
+  background-color: #0070c0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home {
+  //   background-color: rgb(63, 92, 54);
+  padding: 20px;
+  // margin-top: 13%;
+  justify-content: space-between;
+  display: flex;
+
+  & .indexTextArea,
+  & .indexImgArea {
+    width: 50%;
+  }
+  & .indexTextArea {
+    font-size: 1.2em;
+    margin: auto;
+  }
+  & .homeContent {
+    // width: 50%;
+    color: white;
+
+    & h1 {
+      font-size: 1.5em;
+    }
+  }
+
+  & .homBtn {
+    margin-top: 5%;
+
+    & button {
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: transparent;
+      box-shadow: 0px 0px 3px #000;
+      font-weight: 600;
+
+      &:nth-child(2) {
+        margin-left: 10px;
+        background-color: #5fcf7dd6;
+      }
+
+      & a {
+        color: #fff;
+        // font-size: 1.2em;
+      }
+    }
+  }
+
+  & .indexImgArea {
+    & img {
+      width: 100%;
+    }
+  }
+}
